@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY NEWSFEED</title>
+    <link rel="icon" href="./images/Radio Presenter_Outline.png" type="image/x-icon" style="border-radius: 50%;">
+    <script src="https://kit.fontawesome.com/5cac1b893e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="root">
+    <div class="heading_container">
+        <div class="logo">
+            <img src="./images/Radio Presenter_Outline.png" style="height: 100px; margin: 0;">
+        </div>
+        <div>
+            <h1 class="heading">MY NEWSFEED</h1>
+        </div>
+        <!-- top heading -->
+        <div class="heading_button_container">
+            <div><button id="headingbtn1" class="heading_button1">New News</button></div>&nbsp;&nbsp;&nbsp;&nbsp;
+            <div><button id="headingbtn2" class="heading_button1">Saved News</button></div>
+
+            <div class="loader"></div>
+        </div>
+    </div>
+    <!--load new news response  -->
+
+    <div class="category_btn">
+        <h3 style="margin: 10px;">SELECT CATEGORY</h3>
+        <button class="ctgbtn" id="btn1">Politics</button>
+        <button class="ctgbtn" id="btn2">Science</button>
+        <button class="ctgbtn" id="btn3">Automobile</button>
+        <button class="ctgbtn" id="btn4">World</button>
+        <button class="ctgbtn" id="btn5">Sports</button>
+        <button class="ctgbtn" id="btn6">Business</button>
+    </div>
+
+    <div class="new_news_box"></div>
+    <div id="saved-news-container"></div>
+
+      
+
+    <!-- script -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src = "./script.js"></script>
+</body>
+
+</html>
